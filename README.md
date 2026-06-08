@@ -29,3 +29,30 @@ Axio is an advanced AI platform designed to combine autonomous decision-making w
 - **Smart Home & IoT:** Control devices, monitor systems, and integrate multiple platforms.
 - **Web & Data Analytics:** Perform web scraping, data aggregation, and report generation.
 - **AI Research & Development:** Serve as a testbed for LLM integration, autonomous code generation, and adaptive AI workflows.
+
+## License
+
+MIT License
+
+Copyright (c) [2026] [Jeeshan Havi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (SPARC AI), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+1. **Credit Requirement:** The above copyright notice and this permission notice
+   shall be included in all copies or substantial portions of the Software.  
+   Users must give credit to the original creator ([Jeeshan Havi]) in any use, 
+   distribution, or derivative works.
+
+2. The Software is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose, and noninfringement. In no event shall
+   the authors or copyright holders be liable for any claim, damages, or
+   other liability, whether in an action of contract, tort, or otherwise,
+   arising from, out of, or in connection with the Software or the use or
+   other dealings in the Software.
+
+---
