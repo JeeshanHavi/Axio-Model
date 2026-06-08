@@ -44,7 +44,7 @@ copies of the Software, subject to the following conditions:
 
 1. **Credit Requirement:** The above copyright notice and this permission notice
    shall be included in all copies or substantial portions of the Software.  
-   Users must give credit to the original creator ([Jeeshan Havi]) in any use, 
+   Users must mention credits of the original creator in any use, 
    distribution, or derivative works.
 
 2. The Software is provided "as is", without warranty of any kind, express or
