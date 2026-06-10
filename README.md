@@ -37,7 +37,7 @@ MIT License
 Copyright (c) [2026] [Jeeshan Havi]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (SPARC AI), to deal
+of this software and associated documentation files (Axio AI), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, subject to the following conditions:
