@@ -94,7 +94,7 @@ class handDetector():
 def main():
     pTime = 0
     cTime = 0
-    cap = cv2.VideoCapture('C:\\Users\\QWERTY\\Desktop\\sparc hand control\\hand.mp4')
+    cap = cv2.VideoCapture() #CAMERA ID NUMBER OR TEST VIDEO FILE PATH
     detector = handDetector()
     while True:
         success, img = cap.read()
