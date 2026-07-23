@@ -1,0 +1,1 @@
+speechreconition pyttsx3 numpy pandas matplotlib torch pyaudio pip install scikit-learn ollama langchain langchainollama opencv-python keyboard webbrowser pywhatkit pyautogui nltk portaudio torch torchvision transformers

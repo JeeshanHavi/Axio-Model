@@ -1,0 +1,117 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey spark","hi spark","hello spark","wake up",
+                "wake up spark"
+            ],
+            "responses":["hello user","Hi User","hello","hi","greetings","hi sparc here",
+                "Hello This Is SPARC","Hi I Am SPARC","Always There",
+                "Hello There, SPARC Here"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","goodbye spark","bye","see you later",
+                "bye bye"
+            ],
+            "responses":["Good Bye","Good Bye, Have A Nice Day","Bye,Nice To See You",
+                "See Ya Later","Bye","Good Bye","Good Bye,Take Care","Meet You Soon"
+            ]
+        },
+        {
+            "tag":"start virtual mouse",
+            "patterns":["virtual mouse","mouse virtual","activate virtual mouse",
+            "mouse activate virtual","start mouse virtual","turn on virtual mouse",
+                "switch on virtual mouse","start virtual mouse"
+            ],
+            "responses":["virtual mouse activating", "starting virtual mouse",
+            "launching virtual mouse"
+            ]
+        },
+        {
+            "tag":"start object tracker",
+            "patterns":["object tracker","tracker object","activate object tracker",
+            "launch object tracker","start object tracker", "turn on object tracker"
+            ],
+            "responses":["activating object tracker", "starting object tracker","launching object tracker"
+            ]
+        },
+        {
+            "tag":"close virtual mouse",
+            "patterns":["close virtual mouse","shut down virtual mouse","switch off virtual mouse",
+            "deactivate virtual mouse","turn off virtual mouse","terminate virtual mouse"
+            ],
+            "responses":["closing virtual mouse", "shutting down virtual mouse","switching off virtual mouse",
+            "deactivating virtual mouse","turning off virtual mouse"
+            ]
+        },
+        {
+            "tag":"close object tracker",
+            "patterns":["close object tracker","shut down object tracker","switch off object tracker",
+            "deactivate object tracker","turn off object tracker"
+            ],
+            "responses":["closing object tracker", "shutting down object tracker","switching off object tracker",
+            "deactivating object tracker","turning off object tracker"
+            ]
+        },
+        {
+            "tag":"visit youtube",
+            "patterns":["visit youtube","open youtube","go to youtube","launch youtube"]
+        ,
+            "responses":["visiting youtube","opening youtube","going to youtube","launching youtube"]
+            
+        },
+        {
+            "tag":"visit google",
+            "patterns":["visit google","open google","go to google","launch google"],
+            
+            "responses":["visiting google","opening google","going to google","launching google"]
+            
+        },
+        {
+            "tag":"close google",
+            "patterns":["closing google","shut down google","switch off google","turn off google"
+            ],
+            "responses":["closing google","shutting down google","switching off google","turning off google"]
+            
+        },
+        {
+            "tag":"close youtube",
+            "patterns":["close youtube","shut down youtube","switch off youtube","turn off youtube"],
+            
+            "responses":["closing youtube","shutting down youtube","switching off youtube","turning off youtube"]
+            
+        },
+        {
+            "tag":"exit",
+            "patterns":["exit", "quit", "break process", "exit process", "quit process"
+            ],
+            "responses":["Quiting...", "Exiting...", "Breaking process...", "Turning off.."
+            ]
+        },
+        {
+            "tag":"music",
+            "patterns":["play music", "start music", "play song", "play a music", "play some music",
+                "play a song", "play some song", "music play"
+            ],
+            "responses":["which music should I play?", "which one should I play",
+                "tell me the name of the music you would like me to play"
+            ]
+        },
+        {
+            "tag":"",
+            "patterns":[
+            ],
+            "responses":[
+            ]
+        },
+        {
+            "tag":"",
+            "patterns":[
+            ],
+            "responses":[
+            ]
+        }
+    ]
+}
