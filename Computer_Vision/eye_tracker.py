@@ -3,7 +3,7 @@ import mediapipe as mx
 import pyautogui
 
 video = ''
-cam = cv2.VideoCapture() # CAMMERA ID NUMBER
+cam = cv2.VideoCapture() # CAMMERA INDEX ID NUMBER
 face_mesh = mx.solutions.face_mesh.FaceMesh(refine_landmarks=True)
 screen_width, screen_height = pyautogui.size()
 
