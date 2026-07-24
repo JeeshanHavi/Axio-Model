@@ -15,8 +15,8 @@ def object_tracking():
     logger = logging.getLogger(__name__)
 
     # Define command line flags
-    flags.DEFINE_string("video","0", "Path to input video or webcam index (0)")
-    flags.DEFINE_string("output", "G:\\SPARC\\Test_Graphics\\output.mp4", "Path to output video")
+    flags.DEFINE_string("video", "Path to input video or webcam index (0)") #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
+    flags.DEFINE_string("output", "Path to output video") # Set path for output video in case of video file input
     flags.DEFINE_float("conf", 0.50, "Confidence threshold")
     flags.DEFINE_integer("blur_id", None, "Class ID to apply Gaussian Blur")
     flags.DEFINE_integer("class_id", None, "Class ID to track")
@@ -37,7 +37,7 @@ def object_tracking():
         return cap
 
     def initialize_model():
-        model_path = "G:\\SPARC\\DataBase\\yolov10x.pt" #yolov10px.pt path
+        model_path = "DataBase\\yolov10x.pt" #yolov10px.pt path
         if not os.path.exists(model_path):
             logger.error(f"Model weights not found at {model_path}")
             raise FileNotFoundError("Model weights file not found")
@@ -56,7 +56,7 @@ def object_tracking():
         return model
 
     def load_class_names():
-        classes_path = "G:\\SPARC\\DataBase\\coco.names" #coco.names path
+        classes_path = "DataBase\\coco.names" #coco.names path
         if not os.path.exists(classes_path):
             logger.error(f"Class names file not found at {classes_path}")
             raise FileNotFoundError("Class names file not found")
