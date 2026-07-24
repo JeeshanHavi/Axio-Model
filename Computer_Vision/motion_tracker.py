@@ -51,7 +51,7 @@ def draw_connections(frame, keypoints, edges, confidence_threshold):
             cv2.line(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0,0,255), 2)
 
 
-cap = cv2.VideoCapture() #enter video file path here or to get camera live feed type in a numerical value from 0,1,2,3,4,5... and so on
+cap = cv2.VideoCapture() #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
 while cap.isOpened():
     ret, frame = cap.read()
     
