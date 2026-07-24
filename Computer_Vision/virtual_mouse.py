@@ -15,13 +15,13 @@ def v_mouse():
     prev_x, prev_y = 0, 0  # Previous coordinates
     curr_x, curr_y = 0, 0  # Current coordinates
 
-    cap = cv2.VideoCapture(0) #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
+    cap = cv2.VideoCapture() #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
     cap.set(3, width)  # Adjusting size
     cap.set(4, height)
 
     detector = ht.handDetector(maxHands=1)  # Detecting one hand at max
     screen_width, screen_height = autopy.screen.size()  # Getting the screen size
-    screenshot_path = 'G:\SPARC\DataBase\images\screenshot.png'  # Path to save screenshot
+    screenshot_path = 'DataBase\images\screenshot.png'  # Path to save screenshot
 
     while True:
         success, img = cap.read()
