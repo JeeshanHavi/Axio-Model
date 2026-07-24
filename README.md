@@ -2,12 +2,13 @@
 
 > **A Local-First AI Automation Platform powered by Neural Networks and Ollama LLMs**
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Windows](https://img.shields.io/badge/Windows-Supported-0078D6?logo=windows)
+![Linux](https://img.shields.io/badge/Linux-Supported-FCC624?logo=linux&logoColor=black)
+![macOS](https://img.shields.io/badge/macOS-Supported-000000?logo=apple)
 ![AI](https://img.shields.io/badge/AI-Ollama-orange)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
+![Status](https://img.shields.io/badge/Status-Offline-red)
 ---
 
 ## 📖 Overview
