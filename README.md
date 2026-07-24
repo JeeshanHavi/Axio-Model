@@ -2,13 +2,25 @@
 
 > **A Local-First AI Automation Platform powered by Neural Networks and Ollama LLMs**
 
-Axio is an advanced, modular AI automation platform that combines custom neural network architectures with locally hosted Large Language Models (LLMs) through **Ollama** to deliver intelligent, privacy-focused automation. Designed as a local-first system, Axio enables users to control desktop applications, web environments, and IoT devices using natural language while maintaining contextual awareness and modular extensibility.
-
-Unlike traditional chatbots, Axio bridges the gap between conversational intelligence and real-world automation. It is capable of understanding user intent, executing multi-step workflows, managing contextual memory, and integrating with a wide range of software and hardware environments.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![AI](https://img.shields.io/badge/AI-Ollama-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-# ✨ Features
+## 📖 Overview
+
+**Axio** is an advanced **local-first AI automation platform** that combines custom neural network architectures with locally hosted **Ollama Large Language Models (LLMs)** to create an intelligent assistant capable of understanding natural language and executing real-world automation tasks.
+
+Unlike conventional AI chatbots that are limited to conversation, Axio connects conversational intelligence with practical automation. It can understand user intent, maintain contextual memory, interact with desktop applications, automate browsers, process visual information through computer vision, and communicate with IoT devices.
+
+Designed with a **modular architecture**, Axio enables developers to extend functionality by adding independent modules without modifying the core framework, making it suitable for both productivity and AI research.
+
+---
+
+# ✨ Key Features
 
 ## 🧠 Local AI Intelligence
 
@@ -17,121 +29,126 @@ Unlike traditional chatbots, Axio bridges the gap between conversational intelli
 - Privacy-focused processing
 - Offline-capable workflows
 - Context-aware conversations
+- No dependency on cloud AI APIs
 
 ---
 
 ## 🤖 Intelligent Automation
 
-Automate repetitive workflows across multiple platforms.
+Automate repetitive workflows across multiple environments.
 
 Supported capabilities include:
 
 - Desktop application control
-- File management
 - Browser automation
-- Task scheduling
+- File management
 - Email automation
-- Process automation
+- Task scheduling
+- Process management
 - Web scraping
 - Data collection
 - Script execution
+- Custom automation pipelines
 
 ---
 
-## 💬 Natural Language Interaction
+## 💬 Conversational AI
 
-Communicate with Axio using natural language.
+Interact naturally using human language.
 
 Features include:
 
 - Intent recognition
-- Context-aware responses
-- Conversational AI
-- Dynamic prompt generation
+- Context-aware conversations
+- Dynamic response generation
+- Multi-step reasoning
 - Personalized interactions
+- Conversation memory
 
 ---
 
 ## 👁️ Computer Vision
 
-Computer vision modules provide visual understanding capabilities including:
+Computer vision modules enable Axio to understand visual information.
+
+Capabilities include:
 
 - Object detection
 - Image processing
-- Visual recognition
 - Camera integration
+- Visual recognition
 - OCR-ready architecture
-- Future real-time tracking support
+- Real-time tracking (planned)
 
 ---
 
 ## 🧠 Contextual Memory
 
-Axio stores contextual information to improve future interactions.
+Axio stores structured contextual information to improve future interactions.
 
 Examples include:
 
 - User preferences
-- Previous conversations
-- Frequently used commands
-- Workflow history
-- Automation states
+- Conversation history
+- Frequently executed tasks
+- Automation workflows
+- System states
 
 ---
 
 ## 🌐 IoT Integration
 
-Control and automate connected devices.
+Extend automation beyond the desktop.
 
 Potential applications include:
 
 - Smart lighting
 - Home automation
-- Sensor monitoring
-- Device control
-- Custom embedded systems
+- Device monitoring
+- Sensor integration
+- Custom hardware interfaces
 
 ---
 
-## 🔌 Modular Design
+## 🔌 Modular & Extensible
 
-Every subsystem is modular and independently extendable.
+Every subsystem is separated into independent modules.
 
-Developers can easily integrate:
+Developers can easily add:
 
-- New AI models
-- Automation modules
-- Third-party APIs
-- Custom plugins
+- New automation modules
+- AI models
+- APIs
+- Plugins
+- Hardware integrations
 - Experimental algorithms
-- Hardware interfaces
 
 ---
 
-# 🏗️ Architecture
-
-Axio follows a layered architecture where language understanding, reasoning, memory, and automation are separated into independent modules.
+# 🏗️ System Architecture
 
 ```text
                     User
                       │
-          Natural Language Input
+            Natural Language Input
                       │
-              Ollama Language Model
+               Ollama Language Model
                       │
-          Intent & Response Processing
+         Intent & Response Processing
                       │
-            Decision Making Network
+          Decision Making / Neural Core
                       │
-             Context & Memory Layer
+           Context & Memory Management
                       │
-          Automation Dispatch Engine
+            Automation Dispatch Engine
                       │
- ┌────────────┬─────────────┬────────────┬─────────────┐
- │ Desktop    │ Browser     │ Vision     │ IoT Devices │
- │ Automation │ Automation  │ Processing │             │
- └────────────┴─────────────┴────────────┴─────────────┘
+ ┌────────────┬────────────┬────────────┬─────────────┐
+ │ Desktop    │ Browser    │ Vision     │ IoT Devices │
+ │ Automation │ Automation │ Processing │             │
+ └────────────┴────────────┴────────────┴─────────────┘
 ```
+
+The Ollama LLM handles language understanding and response generation, while Axio's internal neural architecture manages reasoning, memory, intent recognition, and automation execution.
 
 ---
 
@@ -144,41 +161,52 @@ Axio/
 │   Main application entry point.
 │
 ├── sparc.py
-│   Core orchestration engine responsible for coordinating all modules.
+│   Core orchestration engine.
 │
 ├── Nervous_sys/
-│   Internal AI processing framework.
+│   AI reasoning framework.
 │   │
 │   ├── Brain/
-│   ├── Neural Network/
-│   ├── Language Processing/
+│   │   Core decision-making logic.
+│   │
+│   ├── Neural_Network/
+│   │   Neural network models.
+│   │
+│   ├── Language_Processing/
+│   │   NLP processing modules.
+│   │
 │   ├── Memory/
-│   ├── Decision Logic/
-│   └── Training/
+│   │   Context storage and retrieval.
+│   │
+│   ├── Training/
+│   │   Model training utilities.
+│   │
+│   └── Decision Logic/
+│
+├── Computer_Vision/
+│   Object detection, image processing and camera modules.
 │
 ├── Function/
 │   Automation modules.
 │   │
-│   ├── Desktop Automation/
-│   ├── Browser Automation/
-│   ├── Email Automation/
-│   ├── Scheduling/
-│   ├── Media Generation/
-│   └── Utilities/
-│
-├── Computer_Vision/
-│   Computer vision and image processing.
+│   ├── Desktop Automation
+│   ├── Browser Automation
+│   ├── Email Automation
+│   ├── Scheduling
+│   ├── Media Generation
+│   ├── Utilities
+│   └── AI Tools
 │
 ├── DataBase/
-│   Local storage and AI resources.
+│   Local resources.
 │   │
 │   ├── intents.json
-│   ├── AI Models
 │   ├── Configuration
+│   ├── AI Models
 │   └── Training Data
 │
 ├── Assets/
-│   Images, icons and application resources.
+│   Images, icons and static resources.
 │
 ├── Models/
 │   Machine learning model files.
@@ -193,7 +221,7 @@ Axio/
 
 # ⚙️ Technology Stack
 
-### Programming Language
+### Programming
 
 - Python
 
@@ -201,92 +229,103 @@ Axio/
 
 - Ollama
 - PyTorch
+- TensorFlow
 - Custom Neural Networks
 
 ### Computer Vision
 
 - OpenCV
+- MediaPipe
+- YOLO (Ultralytics)
+- DeepSORT
 
-### Data Storage
+### Automation
+
+- Selenium
+- PyAutoGUI
+- AutoPy
+
+### Speech Processing
+
+- SpeechRecognition
+- pyttsx3
+
+### Machine Learning
+
+- NumPy
+- Matplotlib
+
+### Data
 
 - SQLite
 - JSON
 
-### Automation
+---
 
-- Operating System APIs
-- Browser Automation
-- Email Automation
+# 📦 Requirements
 
-### Additional Libraries
+Install the required Python packages:
 
-- Speech Recognition
-- Natural Language Processing
-- Scheduling
-- Image Processing
+```bash
+pip install -r requirements.txt
+```
+
+### requirements.txt
+
+```txt
+# Core AI & Machine Learning
+torch
+torchvision
+tensorflow
+numpy
+
+# Large Language Model Integration
+langchain-core
+langchain-ollama
+
+# Computer Vision
+opencv-python
+mediapipe
+ultralytics
+deep-sort-realtime
+Pillow
+
+# Image Generation
+diffusers
+
+# Automation
+pyautogui
+autopy
+selenium
+
+# Speech
+SpeechRecognition
+pyttsx3
+
+# NLP
+nltk
+
+# Networking
+requests
+
+# YouTube
+pytube
+
+# Visualization
+matplotlib
+
+# TensorFlow Logging
+absl-py
+```
 
 ---
 
-# 🚀 Applications
-
-## Personal Productivity
-
-- Automate repetitive tasks
-- Organize files
-- Manage schedules
-- Generate reports
-
-## Intelligent Desktop Assistant
-
-- Launch applications
-- Execute workflows
-- Monitor processes
-- Assist daily computer usage
-
-## Smart Home Automation
-
-- Control IoT devices
-- Execute automation routines
-- Monitor connected hardware
-
-## Computer Vision
-
-- Object detection
-- Image recognition
-- Visual automation
-
-## AI Research
-
-- Experiment with local LLMs
-- Prototype intelligent agents
-- Build autonomous workflows
-- Explore AI-assisted automation
-
----
-
-# 📈 Roadmap
-
-Future development plans include:
-
-- Multi-Agent AI
-- Plugin Marketplace
-- Voice Assistant Improvements
-- Cross-platform Support
-- Long-Term Memory
-- Retrieval-Augmented Generation (RAG)
-- Docker Deployment
-- REST API
-- Mobile Companion App
-- Distributed Automation Nodes
-
----
-
-# 📦 Installation
+# 🚀 Installation
 
 Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/Axio.git
+git clone https://github.com/<your-username>/Axio.git
 ```
 
 Navigate into the project.
@@ -307,7 +346,7 @@ Install an Ollama model.
 ollama pull llama3
 ```
 
-Start the application.
+Run Axio.
 
 ```bash
 python main.py
@@ -315,13 +354,57 @@ python main.py
 
 ---
 
-# 🎯 Vision
+# 🎯 Applications
 
-Axio is built to bridge the gap between conversational AI and real-world automation.
+### Personal Productivity
 
-Rather than functioning solely as a chatbot, Axio combines intelligent reasoning with practical automation, enabling users to interact naturally with software, operating systems, web services, and connected devices—all while maintaining privacy through a local-first architecture.
+- Automate repetitive workflows
+- Manage schedules
+- Organize files
+- Generate reports
 
-The project is designed to serve both as a powerful productivity platform and as a flexible foundation for AI research, experimentation, and autonomous system development.
+### Intelligent Desktop Assistant
+
+- Launch applications
+- Execute workflows
+- Monitor processes
+- Control the operating system
+
+### Smart Home
+
+- IoT automation
+- Device monitoring
+- Sensor integration
+
+### Computer Vision
+
+- Object detection
+- Visual automation
+- Image analysis
+
+### AI Research
+
+- Local LLM experimentation
+- Autonomous agents
+- AI-assisted automation
+- Neural architecture research
+
+---
+
+# 🛣️ Roadmap
+
+Future development includes:
+
+- Multi-Agent AI
+- Plugin Marketplace
+- Voice Assistant Improvements
+- Long-Term Memory
+- Retrieval-Augmented Generation (RAG)
+- Linux & macOS Support
+- REST API
+- Docker Deployment
+- Mobile Companion Application
+- Distributed Automation Nodes
 
 ---
 
@@ -329,13 +412,14 @@ The project is designed to serve both as a powerful productivity platform and as
 
 Contributions are welcome!
 
-Feel free to:
+You can contribute by:
 
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-- Develop new automation modules
+- Reporting bugs
+- Suggesting new features
+- Improving documentation
+- Optimizing performance
+- Creating automation modules
+- Submitting pull requests
 
 ---
 
@@ -353,4 +437,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## ⭐ If you find Axio useful, consider giving the repository a star!
+## ⭐ Support the Project
+
+If you find **Axio** useful, consider giving the repository a **⭐ Star**.
+
+Your support helps improve the project and motivates future development.
