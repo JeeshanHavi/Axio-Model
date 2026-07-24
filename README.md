@@ -336,8 +336,17 @@ cd Axio
 
 Install dependencies.
 
+For Windows 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-windows.txt
+```
+For MacOS
+```bash
+pip install -r requirements-macos.txt
+```
+For Linux
+```bash
+pip install -r requirements-linux.txt
 ```
 
 Install an Ollama model.
