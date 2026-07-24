@@ -3,8 +3,8 @@ def v_mouse():
     import numpy as np
     import time
     from Computer_Vision import hand_tracker as ht
-    import autopy  # Install using "pip install autopy"
-    import pyautogui  # Install using "pip install pyautogui"
+    import autopy 
+    import pyautogui  
 
     ### Variables Declaration
     pTime = 0  # Used to calculate frame rate
@@ -15,7 +15,7 @@ def v_mouse():
     prev_x, prev_y = 0, 0  # Previous coordinates
     curr_x, curr_y = 0, 0  # Current coordinates
 
-    cap = cv2.VideoCapture(0)  # Getting video feed from the webcam
+    cap = cv2.VideoCapture(0) #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
     cap.set(3, width)  # Adjusting size
     cap.set(4, height)
 
