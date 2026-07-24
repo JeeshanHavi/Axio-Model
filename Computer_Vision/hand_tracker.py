@@ -1,5 +1,5 @@
-import cv2  # Can be installed using "pip install opencv-python"
-import mediapipe as mp  # Can be installed using "pip install mediapipe"
+import cv2  # Install using "pip install opencv-python"
+import mediapipe as mp  # Install using "pip install mediapipe"
 import time
 import math
 import numpy as np
@@ -94,7 +94,7 @@ class handDetector():
 def main():
     pTime = 0
     cTime = 0
-    cap = cv2.VideoCapture() #CAMERA ID NUMBER OR TEST VIDEO FILE PATH
+    cap = cv2.VideoCapture() #CAMERA INDEX ID NUMBER OR TEST VIDEO FILE PATH
     detector = handDetector()
     while True:
         success, img = cap.read()
