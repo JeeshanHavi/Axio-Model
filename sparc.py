@@ -30,7 +30,7 @@ def load_intents(file_path):
     intents[intent['tag']] = intent['patterns']
   return intents
 
-file_path = "G:\SPARC\DataBase\intents.json"
+file_path = "DataBase\intents.json"
 intents_data = load_intents(file_path)
 
 
