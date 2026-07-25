@@ -190,7 +190,7 @@ The NLP pipeline processes every user request through tokenization, stemming, ba
 ## 🤖 Chatbot Inference Flow
 
 <p align="center">
-  <img src="Axio-Model/assets/chatbot-flow.png" alt="Chatbot Flow" width="900">
+  <img src="assets/chatbot-flow.png" alt="Chatbot Flow" width="900">
 </p>
 
 This workflow illustrates how Axio loads its trained neural model, preprocesses user input, predicts the user's intent, and dispatches the corresponding automation task or conversational response.
