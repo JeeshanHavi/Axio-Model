@@ -160,7 +160,7 @@ The following diagrams provide an overview of Axio's internal architecture, AI p
 ## 🧠 Overall Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Axio Architecture" width="900">
+  <img src="Axio-Model/assets/architecture.png" alt="Axio Architecture" width="900">
 </p>
 
 Axio follows a modular, local-first architecture that integrates language processing, neural networks, automation modules, computer vision, and system services into a unified AI platform.
@@ -170,7 +170,7 @@ Axio follows a modular, local-first architecture that integrates language proces
 ## 🧠 Neural Network Architecture
 
 <p align="center">
-  <img src="assets/neural-network.png" alt="Neural Network" width="850">
+  <img src="Axio-Model/assets/neural-network.png" alt="Neural Network" width="850">
 </p>
 
 The custom neural network performs intent classification by transforming user input into numerical vectors and predicting the most appropriate action for the automation engine.
@@ -180,7 +180,7 @@ The custom neural network performs intent classification by transforming user in
 ## 📝 Natural Language Processing Pipeline
 
 <p align="center">
-  <img src="assets/nlp-pipeline.png" alt="NLP Pipeline" width="850">
+  <img src="Axio-Model/assets/nlp-pipeline.png" alt="NLP Pipeline" width="850">
 </p>
 
 The NLP pipeline processes every user request through tokenization, stemming, bag-of-words generation, and neural inference before forwarding the predicted intent to Axio's execution engine.
@@ -190,7 +190,7 @@ The NLP pipeline processes every user request through tokenization, stemming, ba
 ## 🤖 Chatbot Inference Flow
 
 <p align="center">
-  <img src="assets/chatbot-flow.png" alt="Chatbot Flow" width="900">
+  <img src="Axio-Model/assets/chatbot-flow.png" alt="Chatbot Flow" width="900">
 </p>
 
 This workflow illustrates how Axio loads its trained neural model, preprocesses user input, predicts the user's intent, and dispatches the corresponding automation task or conversational response.
