@@ -220,10 +220,6 @@ Axio/
 
 ---
 
-<p align="center">
-  <img src="Axio-Model/assets/projectandsystemarchitecture.png" alt="Axio Architecture" width="900">
-</p>
-
 # ⚙️ Technology Stack
 
 ### Programming
