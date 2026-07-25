@@ -221,7 +221,7 @@ Axio/
 ---
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Axio Architecture" width="900">
+  <img src="assets/projectandarchitecture.png" alt="Axio Architecture" width="900">
 </p>
 
 # ⚙️ Technology Stack
