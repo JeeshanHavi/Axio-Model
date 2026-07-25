@@ -43,8 +43,9 @@ def deploy():
         # TAKEN--IINPUT FROM THE USER_______________________________________________________
         try:
             # print("ENTER your command:")
+            # user_input = mic() # Use for voice command activation 
             user_input = input("Enter your command: ")
-            user_input =user_input.lower()
+            user_input = user_input.lower()
 
             if not user_input.strip():
                 print("No input provided. Please enter a command.")
