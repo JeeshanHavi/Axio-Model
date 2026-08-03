@@ -7,7 +7,7 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     # Make sure to give app access in your Google account
-    server.login('srijanexhibiton2025@gmail.com', 'Sender_Email_password')
+    server.login('youremail@gmail.com', 'Sender_Email_password')
     email = EmailMessage()
     email['From'] = 'Sender_Email'
     email['To'] = receiver
@@ -15,10 +15,13 @@ def send_email(receiver, subject, message):
     email.set_content(message)
     server.send_message(email)
 
+'''store your email contacts here in the list below
+in the format shown. First goes receiver's name and receiver's email
+address''' 
 
 email_list = {
-    'shivansh': 'shiva_soap@proton.me',
-    'jeeshan': 'jeeshanhavi@proton.me',
+    'person1': 'person1@xyz.com',
+    'person2': 'person2@xyz.com',
 }
 
 
