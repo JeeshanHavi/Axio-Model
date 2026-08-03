@@ -1,15 +1,18 @@
 import webbrowser
-from pytube import Search
+from urllib.parse import quote
 
-def play_music(user):
-    music_query = user
-    search = Search(music_query)
-    
-    if search.results:
-        # Get the first result
-        video = search.results[0]
-        print(f"Playing: {video.title}")
-    
-        webbrowser.open(video.watch_url)
-    else:
-        print("No results found for your query.")
+def play_music(song: str):
+    song = song.strip()
+
+    if not song:
+        print("Please enter a song name.")
+        return
+
+    url = f"https://www.youtube.com/results?search_query={quote(song)}"
+
+    print(f"Searching YouTube for: {song}")
+    webbrowser.open(url)
+
+if __name__ == "__main__":
+    song = input("Enter song name: ")
+    play_music(song)
