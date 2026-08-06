@@ -17,7 +17,7 @@ def start_sparc():
         elif int(user_log_len) <= 1:
                 pass
         elif 'wake up' in user_log:
-            os.startfile('G:\\SPARC\\sparc.py')
+            os.startfile('axio.py')
         else:
             print("INVALID INPUT! PLEASE TRY AGAIN....")
             continue
