@@ -1,9 +1,13 @@
-def screenshot():
-        path = takecommand()
+from Speak.py import speak
+from Listen.py import mic
+import pyautogui
+
+def src():
+        speak("What name should I save this screenshot with ?")
+        path = mic()
+        path = path.lower()
         path_name = path + ".png"
-        path = "DataBase/Screenshots/"+ path_name
-        path_var = pyautogui.screenshot()
-        parth_var.save(path)
-        Speak("Your Screenshot has been saved!") 
-
-
+        path_var = "DataBase//Screenshots/" + pathname
+        src_x = pyautogui.screenshot()
+        src_x.save(path_var)
+        
